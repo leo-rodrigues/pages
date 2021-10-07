@@ -1,0 +1,117 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/qAjJk-un3BI");
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: -10px;
+  font-size: 35px;
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #10834f;
+  color: white;
+  border-radius: 5px;
+  padding: 16px 26px;
+}
+
+.btn-primary:hover {
+  border: 1px white solid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  padding: 20px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .8;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #10834f;
+  margin: 25px;
+}
+
+.footer p {
+  font-size: 14px;
+  opacity: .7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  position: absolute;
+  top: 140px;
+}
